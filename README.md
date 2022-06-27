@@ -9,10 +9,10 @@
 
 The following animation demonstrates the application functionality:
 
-![Work Day Scheduler app with color-coded time slots shows a new event being typed in the 5PM slot.](./Assets/05-third-party-apis-homework-demo.gif)
+![Work Day Scheduler app with color-coded time slots shows a new event being typed in the 5PM slot.](./assets/images/05-third-party-apis-homework-demo.gif)
 
 https://github.com/coleyrockin/Work-Day-Scheduler <-- Github Repo
 
 https://coleyrockin.github.io/Work-Day-Scheduler/ <-- Deployed application
-
+git 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
