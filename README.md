@@ -15,6 +15,4 @@ https://github.com/coleyrockin/Work-Day-Scheduler <-- Github Repo
 
 https://coleyrockin.github.io/Work-Day-Scheduler/ <-- Deployed application
 
-git 
-
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
