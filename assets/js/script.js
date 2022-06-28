@@ -64,7 +64,8 @@ var interval = setInterval(function() {
     $(".form-control").each(function () {
         var timeTest = parseInt($(this).attr("id"));
         hour = parseInt(hour);
-
+        console.log(timeTest);
+        console.log(hour);
         if (hour > timeTest) {
             $(this).addClass("past");
         } else if (hour < timeTest) {
@@ -74,3 +75,23 @@ var interval = setInterval(function() {
         }
     });
   }
+
+  $(document).ready(function() {
+    initPage()
+    background()
+
+    $(".saveBtn").on("click", function(){
+        userInput = $(this).siblings(".form-control").val().trim();
+        console.log(userInput);
+        hourSpan = $(this).siblings(".input-group-prepend").text().trim();
+        console.log(hourSpan);
+        localStorage.setItem(hourSpan, JSON.stringify(userInput));
+    
+  })
+
+  $("#clearday").on("click", function(){
+    localStorage.clear();
+    initPage()
+  })
+
+});
